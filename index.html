@@ -67,8 +67,8 @@
 
 					// Multiplexing
 					{ src: '//cdn.socket.io/socket.io-1.3.5.js', async: true },
-					{ src: 'plugin/multiplex/client.js', async: true },
-					// { src: 'plugin/multiplex/master.js', async: true },
+					// { src: 'plugin/multiplex/client.js', async: true },
+					{ src: 'plugin/multiplex/master.js', async: true },
 					
 					// Speaker Notes
 					// { src: 'plugin/notes-server/client.js', async: true } // Must comment for GH Pages
@@ -77,11 +77,17 @@
 				],
 
 				multiplex: {
-					secret: null,
+					secret: '15436297665654512939',
 					id: '0405db59c31f2e60',
 					url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh'
 				},
-			});
+
+                // multiplex: {
+                //     secret: '15436273655585306377',
+                // 	id: 'ee48ad5761724a5a',
+                // 	url: 'http://18.188.44.7:8000'
+                // },
+			})
 		</script>
 	</body>
 </html>
